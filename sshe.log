@@ -1,0 +1,453 @@
+[INFO][2021-12-04 13:37:46,761][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization started
+[INFO][2021-12-04 13:37:46,895][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing Root WebApplicationContext: startup date [Sat Dec 04 13:37:46 CST 2021]; root of context hierarchy
+[INFO][2021-12-04 13:37:46,997][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring.xml]
+[INFO][2021-12-04 13:37:47,390][org.springframework.context.annotation.ClassPathBeanDefinitionScanner]JSR-330 'javax.inject.Named' annotation found and supported for component scanning
+[INFO][2021-12-04 13:37:47,479][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-hibernate.xml]
+[INFO][2021-12-04 13:37:47,807][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from class path resource [config.properties]
+[INFO][2021-12-04 13:37:47,819][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO][2021-12-04 13:37:47,877][org.springframework.beans.factory.support.DefaultListableBeanFactory]Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@521032a6: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,baseDao,demoAuthService,demoBugService,demoLogUserService,demoMenuService,demoOnlineService,demoRepairService,demoRoleService,demoUserService,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,dataSource,sessionFactory,transactionManager,transactionAdvice,org.springframework.aop.config.internalAutoProxyCreator,transactionPointcut,org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0,druid-stat-interceptor,druid-stat-pointcut,org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#1,org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0]; root of factory hierarchy
+[ERROR][2021-12-04 13:37:48,459][com.alibaba.druid.pool.DruidAbstractDataSource]maxIdle is deprecated
+[INFO][2021-12-04 13:37:48,750][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} inited
+[INFO][2021-12-04 13:37:49,086][org.hibernate.annotations.common.Version]HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+[INFO][2021-12-04 13:37:49,102][org.hibernate.Version]HHH000412: Hibernate Core {4.1.7.Final}
+[INFO][2021-12-04 13:37:49,107][org.hibernate.cfg.Environment]HHH000206: hibernate.properties not found
+[INFO][2021-12-04 13:37:49,109][org.hibernate.cfg.Environment]HHH000021: Bytecode provider name : javassist
+[INFO][2021-12-04 13:37:50,156][org.hibernate.dialect.Dialect]HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[INFO][2021-12-04 13:37:50,209][org.hibernate.engine.transaction.internal.TransactionFactoryInitiator]HHH000399: Using default transaction strategy (direct JDBC transactions)
+[INFO][2021-12-04 13:37:50,222][org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory]HHH000397: Using ASTQueryTranslatorFactory
+[INFO][2021-12-04 13:37:50,521][org.hibernate.tool.hbm2ddl.SchemaUpdate]HHH000228: Running hbm2ddl schema update
+[INFO][2021-12-04 13:37:50,521][org.hibernate.tool.hbm2ddl.SchemaUpdate]HHH000102: Fetching database metadata
+[INFO][2021-12-04 13:37:50,526][org.hibernate.tool.hbm2ddl.SchemaUpdate]HHH000396: Updating schema
+[INFO][2021-12-04 13:37:50,530][java.sql.DatabaseMetaData]HHH000262: Table not found: TAUTH
+[INFO][2021-12-04 13:37:50,532][java.sql.DatabaseMetaData]HHH000262: Table not found: TBUG
+[INFO][2021-12-04 13:37:50,533][java.sql.DatabaseMetaData]HHH000262: Table not found: TLOGUSERLOGIN
+[INFO][2021-12-04 13:37:50,535][java.sql.DatabaseMetaData]HHH000262: Table not found: TLOGUSERREG
+[INFO][2021-12-04 13:37:50,537][java.sql.DatabaseMetaData]HHH000262: Table not found: TMENU
+[INFO][2021-12-04 13:37:50,538][java.sql.DatabaseMetaData]HHH000262: Table not found: TONLINE
+[INFO][2021-12-04 13:37:50,539][java.sql.DatabaseMetaData]HHH000262: Table not found: TROLE
+[INFO][2021-12-04 13:37:50,541][java.sql.DatabaseMetaData]HHH000262: Table not found: TROLETAUTH
+[INFO][2021-12-04 13:37:50,569][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000261: Table found: sshe.tuser
+[INFO][2021-12-04 13:37:50,570][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000037: Columns: [modifydatetime, name, id, createdatetime, pwd]
+[INFO][2021-12-04 13:37:50,570][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000108: Foreign keys: []
+[INFO][2021-12-04 13:37:50,570][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000126: Indexes: [primary]
+[INFO][2021-12-04 13:37:50,572][java.sql.DatabaseMetaData]HHH000262: Table not found: TUSERTROLE
+[INFO][2021-12-04 13:37:50,573][java.sql.DatabaseMetaData]HHH000262: Table not found: TAUTH
+[INFO][2021-12-04 13:37:50,575][java.sql.DatabaseMetaData]HHH000262: Table not found: TBUG
+[INFO][2021-12-04 13:37:50,576][java.sql.DatabaseMetaData]HHH000262: Table not found: TLOGUSERLOGIN
+[INFO][2021-12-04 13:37:50,578][java.sql.DatabaseMetaData]HHH000262: Table not found: TLOGUSERREG
+[INFO][2021-12-04 13:37:50,580][java.sql.DatabaseMetaData]HHH000262: Table not found: TMENU
+[INFO][2021-12-04 13:37:50,584][java.sql.DatabaseMetaData]HHH000262: Table not found: TONLINE
+[INFO][2021-12-04 13:37:50,585][java.sql.DatabaseMetaData]HHH000262: Table not found: TROLE
+[INFO][2021-12-04 13:37:50,588][java.sql.DatabaseMetaData]HHH000262: Table not found: TROLETAUTH
+[INFO][2021-12-04 13:37:50,590][java.sql.DatabaseMetaData]HHH000262: Table not found: TUSERTROLE
+[ERROR][2021-12-04 13:37:52,230][org.hibernate.tool.hbm2ddl.SchemaUpdate]HHH000388: Unsuccessful: alter table TAUTH add index FK4BE8BFC8A7F68E6 (CPID), add constraint FK4BE8BFC8A7F68E6 foreign key (CPID) references TAUTH (CID)
+[ERROR][2021-12-04 13:37:52,231][org.hibernate.tool.hbm2ddl.SchemaUpdate]REFERENCES command denied to user 'sypro'@'localhost' for table 'tauth'
+[ERROR][2021-12-04 13:37:52,252][org.hibernate.tool.hbm2ddl.SchemaUpdate]HHH000388: Unsuccessful: alter table TMENU add index FK4C3C3B38A84A09D (CPID), add constraint FK4C3C3B38A84A09D foreign key (CPID) references TMENU (CID)
+[ERROR][2021-12-04 13:37:52,253][org.hibernate.tool.hbm2ddl.SchemaUpdate]REFERENCES command denied to user 'sypro'@'localhost' for table 'tmenu'
+[ERROR][2021-12-04 13:37:52,264][org.hibernate.tool.hbm2ddl.SchemaUpdate]HHH000388: Unsuccessful: alter table TROLETAUTH add index FKE3580B72AB86C184 (CAUTHID), add constraint FKE3580B72AB86C184 foreign key (CAUTHID) references TAUTH (CID)
+[ERROR][2021-12-04 13:37:52,265][org.hibernate.tool.hbm2ddl.SchemaUpdate]REFERENCES command denied to user 'sypro'@'localhost' for table 'tauth'
+[ERROR][2021-12-04 13:37:52,285][org.hibernate.tool.hbm2ddl.SchemaUpdate]HHH000388: Unsuccessful: alter table TROLETAUTH add index FKE3580B72C8388BA0 (CROLEID), add constraint FKE3580B72C8388BA0 foreign key (CROLEID) references TROLE (CID)
+[ERROR][2021-12-04 13:37:52,286][org.hibernate.tool.hbm2ddl.SchemaUpdate]REFERENCES command denied to user 'sypro'@'localhost' for table 'trole'
+[ERROR][2021-12-04 13:37:52,291][org.hibernate.tool.hbm2ddl.SchemaUpdate]HHH000388: Unsuccessful: alter table TUSERTROLE add index FKE395100BC8388BA0 (CROLEID), add constraint FKE395100BC8388BA0 foreign key (CROLEID) references TROLE (CID)
+[ERROR][2021-12-04 13:37:52,291][org.hibernate.tool.hbm2ddl.SchemaUpdate]REFERENCES command denied to user 'sypro'@'localhost' for table 'trole'
+[ERROR][2021-12-04 13:37:52,293][org.hibernate.tool.hbm2ddl.SchemaUpdate]HHH000388: Unsuccessful: alter table TUSERTROLE add index FKE395100BCD8DE10A (CUSERID), add constraint FKE395100BCD8DE10A foreign key (CUSERID) references TUSER (CID)
+[ERROR][2021-12-04 13:37:52,293][org.hibernate.tool.hbm2ddl.SchemaUpdate]REFERENCES command denied to user 'sypro'@'localhost' for table 'tuser'
+[INFO][2021-12-04 13:37:52,294][org.hibernate.tool.hbm2ddl.SchemaUpdate]HHH000232: Schema update complete
+[INFO][2021-12-04 13:37:52,599][org.springframework.orm.hibernate4.HibernateTransactionManager]Using DataSource [{
+	CreateTime:"2021-12-04 13:37:48",
+	ActiveCount:0,
+	PoolingCount:1,
+	CreateCount:1,
+	DestroyCount:0,
+	CloseCount:2,
+	ConnectCount:2,
+	Connections:[
+		{ID:361484925, ConnectTime:"2021-12-04 13:37:50", UseCount:2, LastActiveTime:"2021-12-04 13:37:52"}
+	]
+}] of Hibernate SessionFactory for HibernateTransactionManager
+[INFO][2021-12-04 13:37:52,824][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization completed in 6062 ms
+[INFO][2021-12-04 13:37:52,888][sy.listener.demo.RepairListener]修复数据库
+[WARN][2021-12-04 13:37:53,506][org.hibernate.hql.internal.ast.HqlSqlWalker][DEPRECATION] Encountered positional parameter near line 1, column 44.  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+[WARN][2021-12-04 13:37:53,508][org.hibernate.hql.internal.ast.HqlSqlWalker][DEPRECATION] Encountered positional parameter near line 1, column 59.  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+[WARN][2021-12-04 13:37:53,648][org.hibernate.engine.jdbc.spi.SqlExceptionHelper]SQL Error: 1364, SQLState: HY000
+[ERROR][2021-12-04 13:37:53,648][org.hibernate.engine.jdbc.spi.SqlExceptionHelper]Field 'id' doesn't have a default value
+[INFO][2021-12-04 13:37:53,656][org.hibernate.engine.jdbc.batch.internal.AbstractBatchImpl]HHH000010: On release of batch it still contained JDBC statements
+[INFO][2021-12-04 13:37:54,325][org.springframework.web.context.support.XmlWebApplicationContext]Closing Root WebApplicationContext: startup date [Sat Dec 04 13:37:46 CST 2021]; root of context hierarchy
+[INFO][2021-12-04 13:37:54,327][org.springframework.beans.factory.support.DefaultListableBeanFactory]Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@521032a6: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,baseDao,demoAuthService,demoBugService,demoLogUserService,demoMenuService,demoOnlineService,demoRepairService,demoRoleService,demoUserService,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,dataSource,sessionFactory,transactionManager,transactionAdvice,org.springframework.aop.config.internalAutoProxyCreator,transactionPointcut,org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0,druid-stat-interceptor,druid-stat-pointcut,org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#1,org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0]; root of factory hierarchy
+[INFO][2021-12-04 13:37:54,517][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} closed
+[INFO][2021-12-04 13:40:24,697][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization started
+[INFO][2021-12-04 13:40:24,788][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing Root WebApplicationContext: startup date [Sat Dec 04 13:40:24 CST 2021]; root of context hierarchy
+[INFO][2021-12-04 13:40:24,844][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring.xml]
+[INFO][2021-12-04 13:40:25,046][org.springframework.context.annotation.ClassPathBeanDefinitionScanner]JSR-330 'javax.inject.Named' annotation found and supported for component scanning
+[INFO][2021-12-04 13:40:25,131][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-hibernate.xml]
+[INFO][2021-12-04 13:40:25,498][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from class path resource [config.properties]
+[INFO][2021-12-04 13:40:25,516][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO][2021-12-04 13:40:25,603][org.springframework.beans.factory.support.DefaultListableBeanFactory]Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@7e4c72d6: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,baseDao,demoAuthService,demoBugService,demoLogUserService,demoMenuService,demoOnlineService,demoRepairService,demoRoleService,demoUserService,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,dataSource,sessionFactory,transactionManager,transactionAdvice,org.springframework.aop.config.internalAutoProxyCreator,transactionPointcut,org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0,druid-stat-interceptor,druid-stat-pointcut,org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#1,org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0]; root of factory hierarchy
+[ERROR][2021-12-04 13:40:26,412][com.alibaba.druid.pool.DruidAbstractDataSource]maxIdle is deprecated
+[INFO][2021-12-04 13:40:26,532][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} inited
+[INFO][2021-12-04 13:40:26,867][org.hibernate.annotations.common.Version]HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+[INFO][2021-12-04 13:40:26,878][org.hibernate.Version]HHH000412: Hibernate Core {4.1.7.Final}
+[INFO][2021-12-04 13:40:26,882][org.hibernate.cfg.Environment]HHH000206: hibernate.properties not found
+[INFO][2021-12-04 13:40:26,884][org.hibernate.cfg.Environment]HHH000021: Bytecode provider name : javassist
+[INFO][2021-12-04 13:40:27,697][org.hibernate.dialect.Dialect]HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[INFO][2021-12-04 13:40:27,734][org.hibernate.engine.transaction.internal.TransactionFactoryInitiator]HHH000399: Using default transaction strategy (direct JDBC transactions)
+[INFO][2021-12-04 13:40:27,742][org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory]HHH000397: Using ASTQueryTranslatorFactory
+[INFO][2021-12-04 13:40:28,041][org.hibernate.tool.hbm2ddl.SchemaUpdate]HHH000228: Running hbm2ddl schema update
+[INFO][2021-12-04 13:40:28,041][org.hibernate.tool.hbm2ddl.SchemaUpdate]HHH000102: Fetching database metadata
+[INFO][2021-12-04 13:40:28,047][org.hibernate.tool.hbm2ddl.SchemaUpdate]HHH000396: Updating schema
+[INFO][2021-12-04 13:40:28,072][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000261: Table found: sshe.tauth
+[INFO][2021-12-04 13:40:28,072][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000037: Columns: [cseq, curl, cdesc, cpid, cname, cid]
+[INFO][2021-12-04 13:40:28,072][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000108: Foreign keys: []
+[INFO][2021-12-04 13:40:28,072][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000126: Indexes: [primary]
+[INFO][2021-12-04 13:40:28,084][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000261: Table found: sshe.tbug
+[INFO][2021-12-04 13:40:28,084][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000037: Columns: [cdesc, cname, ccreatedatetime, cid]
+[INFO][2021-12-04 13:40:28,084][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000108: Foreign keys: []
+[INFO][2021-12-04 13:40:28,084][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000126: Indexes: [primary]
+[INFO][2021-12-04 13:40:28,096][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000261: Table found: sshe.tloguserlogin
+[INFO][2021-12-04 13:40:28,096][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000037: Columns: [cmsg, cname, cdatetime, cid]
+[INFO][2021-12-04 13:40:28,096][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000108: Foreign keys: []
+[INFO][2021-12-04 13:40:28,096][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000126: Indexes: [primary]
+[INFO][2021-12-04 13:40:28,104][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000261: Table found: sshe.tloguserreg
+[INFO][2021-12-04 13:40:28,104][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000037: Columns: [cmsg, cname, cdatetime, cid]
+[INFO][2021-12-04 13:40:28,104][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000108: Foreign keys: []
+[INFO][2021-12-04 13:40:28,105][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000126: Indexes: [primary]
+[INFO][2021-12-04 13:40:28,113][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000261: Table found: sshe.tmenu
+[INFO][2021-12-04 13:40:28,113][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000037: Columns: [cseq, curl, cpid, cname, ciconcls, cid]
+[INFO][2021-12-04 13:40:28,113][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000108: Foreign keys: []
+[INFO][2021-12-04 13:40:28,113][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000126: Indexes: [primary]
+[INFO][2021-12-04 13:40:28,121][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000261: Table found: sshe.tonline
+[INFO][2021-12-04 13:40:28,121][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000037: Columns: [cname, cip, cdatetime, cid]
+[INFO][2021-12-04 13:40:28,121][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000108: Foreign keys: []
+[INFO][2021-12-04 13:40:28,122][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000126: Indexes: [primary]
+[INFO][2021-12-04 13:40:28,128][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000261: Table found: sshe.trole
+[INFO][2021-12-04 13:40:28,128][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000037: Columns: [cdesc, cname, cid]
+[INFO][2021-12-04 13:40:28,128][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000108: Foreign keys: []
+[INFO][2021-12-04 13:40:28,129][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000126: Indexes: [primary]
+[INFO][2021-12-04 13:40:28,135][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000261: Table found: sshe.troletauth
+[INFO][2021-12-04 13:40:28,135][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000037: Columns: [cauthid, croleid, cid]
+[INFO][2021-12-04 13:40:28,135][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000108: Foreign keys: []
+[INFO][2021-12-04 13:40:28,135][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000126: Indexes: [primary]
+[INFO][2021-12-04 13:40:28,142][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000261: Table found: sshe.tuser
+[INFO][2021-12-04 13:40:28,142][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000037: Columns: [modifydatetime, cpwd, cmodifydatetime, name, cname, id, createdatetime, pwd, ccreatedatetime, cid]
+[INFO][2021-12-04 13:40:28,142][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000108: Foreign keys: []
+[INFO][2021-12-04 13:40:28,143][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000126: Indexes: [cname, primary]
+[INFO][2021-12-04 13:40:28,149][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000261: Table found: sshe.tusertrole
+[INFO][2021-12-04 13:40:28,149][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000037: Columns: [croleid, cuserid, cid]
+[INFO][2021-12-04 13:40:28,149][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000108: Foreign keys: []
+[INFO][2021-12-04 13:40:28,150][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000126: Indexes: [primary]
+[ERROR][2021-12-04 13:40:28,197][com.alibaba.druid.filter.stat.StatFilter]merge sql error, dbType mysql, sql : 
+alter table TAUTH add index FK4BE8BFC8A7F68E6 (CPID), add constraint FK4BE8BFC8A7F68E6 foreign key (CPID) references TAUTH (CID)
+com.alibaba.druid.sql.parser.ParserException: TODO CONSTRAINT constraint
+	at com.alibaba.druid.sql.dialect.mysql.parser.MySqlStatementParser.parseAlter(MySqlStatementParser.java:2150)
+	at com.alibaba.druid.sql.parser.SQLStatementParser.parseStatementList(SQLStatementParser.java:116)
+	at com.alibaba.druid.sql.parser.SQLStatementParser.parseStatementList(SQLStatementParser.java:68)
+	at com.alibaba.druid.sql.visitor.ParameterizedOutputVisitorUtils.parameterize(ParameterizedOutputVisitorUtils.java:40)
+	at com.alibaba.druid.filter.stat.StatFilter.mergeSql(StatFilter.java:145)
+	at com.alibaba.druid.filter.stat.StatFilter.createSqlStat(StatFilter.java:647)
+	at com.alibaba.druid.filter.stat.StatFilter.internalBeforeStatementExecute(StatFilter.java:402)
+	at com.alibaba.druid.filter.stat.StatFilter.statementExecuteUpdateBefore(StatFilter.java:325)
+	at com.alibaba.druid.filter.FilterEventAdapter.statement_executeUpdate(FilterEventAdapter.java:324)
+	at com.alibaba.druid.filter.FilterChainImpl.statement_executeUpdate(FilterChainImpl.java:2369)
+	at com.alibaba.druid.proxy.jdbc.StatementProxyImpl.executeUpdate(StatementProxyImpl.java:169)
+	at com.alibaba.druid.pool.DruidPooledStatement.executeUpdate(DruidPooledStatement.java:135)
+	at org.hibernate.tool.hbm2ddl.SchemaUpdate.execute(SchemaUpdate.java:227)
+	at org.hibernate.tool.hbm2ddl.SchemaUpdate.execute(SchemaUpdate.java:178)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:492)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:1750)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:1788)
+	at org.springframework.orm.hibernate4.LocalSessionFactoryBuilder.buildSessionFactory(LocalSessionFactoryBuilder.java:242)
+	at org.springframework.orm.hibernate4.LocalSessionFactoryBean.buildSessionFactory(LocalSessionFactoryBean.java:372)
+	at org.springframework.orm.hibernate4.LocalSessionFactoryBean.afterPropertiesSet(LocalSessionFactoryBean.java:357)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1514)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1452)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:519)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:456)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:294)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:225)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:291)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:193)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:876)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:818)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:735)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredMethodElement.inject(AutowiredAnnotationBeanPostProcessor.java:551)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:87)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:284)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1106)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:456)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:294)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:225)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:291)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:193)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:609)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:469)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:383)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:283)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:111)
+	at org.mortbay.jetty.handler.ContextHandler.startContext(ContextHandler.java:548)
+	at org.mortbay.jetty.servlet.Context.startContext(Context.java:136)
+	at org.mortbay.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1233)
+	at org.mortbay.jetty.handler.ContextHandler.doStart(ContextHandler.java:517)
+	at org.mortbay.jetty.webapp.WebAppContext.doStart(WebAppContext.java:460)
+	at org.mortbay.jetty.plugin.Jetty6PluginWebAppContext.doStart(Jetty6PluginWebAppContext.java:124)
+	at org.mortbay.component.AbstractLifeCycle.start(AbstractLifeCycle.java:50)
+	at org.mortbay.jetty.handler.HandlerCollection.doStart(HandlerCollection.java:152)
+	at org.mortbay.jetty.handler.ContextHandlerCollection.doStart(ContextHandlerCollection.java:156)
+	at org.mortbay.component.AbstractLifeCycle.start(AbstractLifeCycle.java:50)
+	at org.mortbay.jetty.handler.HandlerCollection.doStart(HandlerCollection.java:152)
+	at org.mortbay.component.AbstractLifeCycle.start(AbstractLifeCycle.java:50)
+	at org.mortbay.jetty.handler.HandlerWrapper.doStart(HandlerWrapper.java:130)
+	at org.mortbay.jetty.Server.doStart(Server.java:222)
+	at org.mortbay.component.AbstractLifeCycle.start(AbstractLifeCycle.java:50)
+	at org.mortbay.jetty.plugin.Jetty6PluginServer.start(Jetty6PluginServer.java:132)
+	at org.mortbay.jetty.plugin.AbstractJettyMojo.startJetty(AbstractJettyMojo.java:379)
+	at org.mortbay.jetty.plugin.AbstractJettyMojo.execute(AbstractJettyMojo.java:321)
+	at org.mortbay.jetty.plugin.AbstractJettyRunMojo.execute(AbstractJettyRunMojo.java:205)
+	at org.mortbay.jetty.plugin.Jetty6RunMojo.execute(Jetty6RunMojo.java:184)
+	at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:137)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:210)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:156)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:148)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:117)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:81)
+	at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build(SingleThreadedBuilder.java:56)
+	at org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:128)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:305)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:192)
+	at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:105)
+	at org.apache.maven.cli.MavenCli.execute(MavenCli.java:957)
+	at org.apache.maven.cli.MavenCli.doMain(MavenCli.java:289)
+	at org.apache.maven.cli.MavenCli.main(MavenCli.java:193)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:282)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:225)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:406)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:347)
+	at org.codehaus.classworlds.Launcher.main(Launcher.java:47)
+[ERROR][2021-12-04 13:40:28,226][org.hibernate.tool.hbm2ddl.SchemaUpdate]HHH000388: Unsuccessful: alter table TAUTH add index FK4BE8BFC8A7F68E6 (CPID), add constraint FK4BE8BFC8A7F68E6 foreign key (CPID) references TAUTH (CID)
+[ERROR][2021-12-04 13:40:28,227][org.hibernate.tool.hbm2ddl.SchemaUpdate]REFERENCES command denied to user 'sypro'@'localhost' for table 'tauth'
+[ERROR][2021-12-04 13:40:28,229][org.hibernate.tool.hbm2ddl.SchemaUpdate]HHH000388: Unsuccessful: alter table TMENU add index FK4C3C3B38A84A09D (CPID), add constraint FK4C3C3B38A84A09D foreign key (CPID) references TMENU (CID)
+[ERROR][2021-12-04 13:40:28,229][org.hibernate.tool.hbm2ddl.SchemaUpdate]REFERENCES command denied to user 'sypro'@'localhost' for table 'tmenu'
+[ERROR][2021-12-04 13:40:28,231][org.hibernate.tool.hbm2ddl.SchemaUpdate]HHH000388: Unsuccessful: alter table TROLETAUTH add index FKE3580B72AB86C184 (CAUTHID), add constraint FKE3580B72AB86C184 foreign key (CAUTHID) references TAUTH (CID)
+[ERROR][2021-12-04 13:40:28,231][org.hibernate.tool.hbm2ddl.SchemaUpdate]REFERENCES command denied to user 'sypro'@'localhost' for table 'tauth'
+[ERROR][2021-12-04 13:40:28,232][org.hibernate.tool.hbm2ddl.SchemaUpdate]HHH000388: Unsuccessful: alter table TROLETAUTH add index FKE3580B72C8388BA0 (CROLEID), add constraint FKE3580B72C8388BA0 foreign key (CROLEID) references TROLE (CID)
+[ERROR][2021-12-04 13:40:28,233][org.hibernate.tool.hbm2ddl.SchemaUpdate]REFERENCES command denied to user 'sypro'@'localhost' for table 'trole'
+[ERROR][2021-12-04 13:40:28,234][org.hibernate.tool.hbm2ddl.SchemaUpdate]HHH000388: Unsuccessful: alter table TUSERTROLE add index FKE395100BC8388BA0 (CROLEID), add constraint FKE395100BC8388BA0 foreign key (CROLEID) references TROLE (CID)
+[ERROR][2021-12-04 13:40:28,234][org.hibernate.tool.hbm2ddl.SchemaUpdate]REFERENCES command denied to user 'sypro'@'localhost' for table 'trole'
+[ERROR][2021-12-04 13:40:28,236][org.hibernate.tool.hbm2ddl.SchemaUpdate]HHH000388: Unsuccessful: alter table TUSERTROLE add index FKE395100BCD8DE10A (CUSERID), add constraint FKE395100BCD8DE10A foreign key (CUSERID) references TUSER (CID)
+[ERROR][2021-12-04 13:40:28,236][org.hibernate.tool.hbm2ddl.SchemaUpdate]REFERENCES command denied to user 'sypro'@'localhost' for table 'tuser'
+[INFO][2021-12-04 13:40:28,236][org.hibernate.tool.hbm2ddl.SchemaUpdate]HHH000232: Schema update complete
+[INFO][2021-12-04 13:40:28,429][org.springframework.orm.hibernate4.HibernateTransactionManager]Using DataSource [{
+	CreateTime:"2021-12-04 13:40:26",
+	ActiveCount:0,
+	PoolingCount:1,
+	CreateCount:1,
+	DestroyCount:0,
+	CloseCount:2,
+	ConnectCount:2,
+	Connections:[
+		{ID:1753607449, ConnectTime:"2021-12-04 13:40:27", UseCount:2, LastActiveTime:"2021-12-04 13:40:28"}
+	]
+}] of Hibernate SessionFactory for HibernateTransactionManager
+[INFO][2021-12-04 13:40:28,715][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization completed in 4017 ms
+[INFO][2021-12-04 13:40:28,767][sy.listener.demo.RepairListener]修复数据库
+[WARN][2021-12-04 13:40:29,465][org.hibernate.hql.internal.ast.HqlSqlWalker][DEPRECATION] Encountered positional parameter near line 1, column 44.  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+[WARN][2021-12-04 13:40:29,467][org.hibernate.hql.internal.ast.HqlSqlWalker][DEPRECATION] Encountered positional parameter near line 1, column 59.  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+[WARN][2021-12-04 13:40:29,646][org.hibernate.engine.jdbc.spi.SqlExceptionHelper]SQL Error: 1364, SQLState: HY000
+[ERROR][2021-12-04 13:40:29,647][org.hibernate.engine.jdbc.spi.SqlExceptionHelper]Field 'id' doesn't have a default value
+[INFO][2021-12-04 13:40:29,655][org.hibernate.engine.jdbc.batch.internal.AbstractBatchImpl]HHH000010: On release of batch it still contained JDBC statements
+[INFO][2021-12-04 13:40:30,542][org.springframework.web.context.support.XmlWebApplicationContext]Closing Root WebApplicationContext: startup date [Sat Dec 04 13:40:24 CST 2021]; root of context hierarchy
+[INFO][2021-12-04 13:40:30,544][org.springframework.beans.factory.support.DefaultListableBeanFactory]Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@7e4c72d6: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,baseDao,demoAuthService,demoBugService,demoLogUserService,demoMenuService,demoOnlineService,demoRepairService,demoRoleService,demoUserService,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,dataSource,sessionFactory,transactionManager,transactionAdvice,org.springframework.aop.config.internalAutoProxyCreator,transactionPointcut,org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0,druid-stat-interceptor,druid-stat-pointcut,org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#1,org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0]; root of factory hierarchy
+[INFO][2021-12-04 13:40:30,554][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} closed
+[INFO][2021-12-04 13:42:16,585][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization started
+[INFO][2021-12-04 13:42:16,697][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing Root WebApplicationContext: startup date [Sat Dec 04 13:42:16 CST 2021]; root of context hierarchy
+[INFO][2021-12-04 13:42:16,846][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring.xml]
+[INFO][2021-12-04 13:42:17,105][org.springframework.context.annotation.ClassPathBeanDefinitionScanner]JSR-330 'javax.inject.Named' annotation found and supported for component scanning
+[INFO][2021-12-04 13:42:17,208][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-hibernate.xml]
+[INFO][2021-12-04 13:42:18,250][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from class path resource [config.properties]
+[INFO][2021-12-04 13:42:18,262][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO][2021-12-04 13:42:18,339][org.springframework.beans.factory.support.DefaultListableBeanFactory]Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@78977b59: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,baseDao,demoAuthService,demoBugService,demoLogUserService,demoMenuService,demoOnlineService,demoRepairService,demoRoleService,demoUserService,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,dataSource,sessionFactory,transactionManager,transactionAdvice,org.springframework.aop.config.internalAutoProxyCreator,transactionPointcut,org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0,druid-stat-interceptor,druid-stat-pointcut,org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#1,org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0]; root of factory hierarchy
+[ERROR][2021-12-04 13:42:18,998][com.alibaba.druid.pool.DruidAbstractDataSource]maxIdle is deprecated
+[INFO][2021-12-04 13:42:19,135][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} inited
+[INFO][2021-12-04 13:42:19,395][org.hibernate.annotations.common.Version]HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+[INFO][2021-12-04 13:42:19,403][org.hibernate.Version]HHH000412: Hibernate Core {4.1.7.Final}
+[INFO][2021-12-04 13:42:19,406][org.hibernate.cfg.Environment]HHH000206: hibernate.properties not found
+[INFO][2021-12-04 13:42:19,409][org.hibernate.cfg.Environment]HHH000021: Bytecode provider name : javassist
+[INFO][2021-12-04 13:42:20,177][org.hibernate.dialect.Dialect]HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[INFO][2021-12-04 13:42:20,222][org.hibernate.engine.transaction.internal.TransactionFactoryInitiator]HHH000399: Using default transaction strategy (direct JDBC transactions)
+[INFO][2021-12-04 13:42:20,230][org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory]HHH000397: Using ASTQueryTranslatorFactory
+[INFO][2021-12-04 13:42:20,697][org.hibernate.tool.hbm2ddl.SchemaUpdate]HHH000228: Running hbm2ddl schema update
+[INFO][2021-12-04 13:42:20,697][org.hibernate.tool.hbm2ddl.SchemaUpdate]HHH000102: Fetching database metadata
+[INFO][2021-12-04 13:42:20,703][org.hibernate.tool.hbm2ddl.SchemaUpdate]HHH000396: Updating schema
+[INFO][2021-12-04 13:42:20,742][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000261: Table found: sshe.tauth
+[INFO][2021-12-04 13:42:20,742][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000037: Columns: [cseq, curl, cdesc, cpid, cname, cid]
+[INFO][2021-12-04 13:42:20,742][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000108: Foreign keys: []
+[INFO][2021-12-04 13:42:20,743][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000126: Indexes: [primary]
+[INFO][2021-12-04 13:42:20,760][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000261: Table found: sshe.tbug
+[INFO][2021-12-04 13:42:20,760][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000037: Columns: [cdesc, cname, ccreatedatetime, cid]
+[INFO][2021-12-04 13:42:20,760][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000108: Foreign keys: []
+[INFO][2021-12-04 13:42:20,761][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000126: Indexes: [primary]
+[INFO][2021-12-04 13:42:20,777][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000261: Table found: sshe.tloguserlogin
+[INFO][2021-12-04 13:42:20,778][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000037: Columns: [cmsg, cname, cdatetime, cid]
+[INFO][2021-12-04 13:42:20,778][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000108: Foreign keys: []
+[INFO][2021-12-04 13:42:20,778][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000126: Indexes: [primary]
+[INFO][2021-12-04 13:42:20,807][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000261: Table found: sshe.tloguserreg
+[INFO][2021-12-04 13:42:20,809][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000037: Columns: [cmsg, cname, cdatetime, cid]
+[INFO][2021-12-04 13:42:20,809][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000108: Foreign keys: []
+[INFO][2021-12-04 13:42:20,810][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000126: Indexes: [primary]
+[INFO][2021-12-04 13:42:20,822][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000261: Table found: sshe.tmenu
+[INFO][2021-12-04 13:42:20,823][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000037: Columns: [cseq, curl, cpid, cname, ciconcls, cid]
+[INFO][2021-12-04 13:42:20,823][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000108: Foreign keys: []
+[INFO][2021-12-04 13:42:20,823][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000126: Indexes: [primary]
+[INFO][2021-12-04 13:42:20,836][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000261: Table found: sshe.tonline
+[INFO][2021-12-04 13:42:20,836][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000037: Columns: [cname, cip, cdatetime, cid]
+[INFO][2021-12-04 13:42:20,836][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000108: Foreign keys: []
+[INFO][2021-12-04 13:42:20,837][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000126: Indexes: [primary]
+[INFO][2021-12-04 13:42:20,851][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000261: Table found: sshe.trole
+[INFO][2021-12-04 13:42:20,852][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000037: Columns: [cdesc, cname, cid]
+[INFO][2021-12-04 13:42:20,852][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000108: Foreign keys: []
+[INFO][2021-12-04 13:42:20,852][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000126: Indexes: [primary]
+[INFO][2021-12-04 13:42:20,866][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000261: Table found: sshe.troletauth
+[INFO][2021-12-04 13:42:20,867][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000037: Columns: [cauthid, croleid, cid]
+[INFO][2021-12-04 13:42:20,867][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000108: Foreign keys: []
+[INFO][2021-12-04 13:42:20,867][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000126: Indexes: [primary]
+[INFO][2021-12-04 13:42:20,880][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000261: Table found: sshe.tuser
+[INFO][2021-12-04 13:42:20,880][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000037: Columns: [modifydatetime, cpwd, cmodifydatetime, name, cname, id, createdatetime, pwd, ccreatedatetime, cid]
+[INFO][2021-12-04 13:42:20,880][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000108: Foreign keys: []
+[INFO][2021-12-04 13:42:20,881][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000126: Indexes: [cname, primary]
+[INFO][2021-12-04 13:42:20,891][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000261: Table found: sshe.tusertrole
+[INFO][2021-12-04 13:42:20,892][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000037: Columns: [croleid, cuserid, cid]
+[INFO][2021-12-04 13:42:20,892][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000108: Foreign keys: []
+[INFO][2021-12-04 13:42:20,892][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000126: Indexes: [primary]
+[ERROR][2021-12-04 13:42:20,989][com.alibaba.druid.filter.stat.StatFilter]merge sql error, dbType mysql, sql : 
+alter table TAUTH add index FK4BE8BFC8A7F68E6 (CPID), add constraint FK4BE8BFC8A7F68E6 foreign key (CPID) references TAUTH (CID)
+com.alibaba.druid.sql.parser.ParserException: TODO CONSTRAINT constraint
+	at com.alibaba.druid.sql.dialect.mysql.parser.MySqlStatementParser.parseAlter(MySqlStatementParser.java:2150)
+	at com.alibaba.druid.sql.parser.SQLStatementParser.parseStatementList(SQLStatementParser.java:116)
+	at com.alibaba.druid.sql.parser.SQLStatementParser.parseStatementList(SQLStatementParser.java:68)
+	at com.alibaba.druid.sql.visitor.ParameterizedOutputVisitorUtils.parameterize(ParameterizedOutputVisitorUtils.java:40)
+	at com.alibaba.druid.filter.stat.StatFilter.mergeSql(StatFilter.java:145)
+	at com.alibaba.druid.filter.stat.StatFilter.createSqlStat(StatFilter.java:647)
+	at com.alibaba.druid.filter.stat.StatFilter.internalBeforeStatementExecute(StatFilter.java:402)
+	at com.alibaba.druid.filter.stat.StatFilter.statementExecuteUpdateBefore(StatFilter.java:325)
+	at com.alibaba.druid.filter.FilterEventAdapter.statement_executeUpdate(FilterEventAdapter.java:324)
+	at com.alibaba.druid.filter.FilterChainImpl.statement_executeUpdate(FilterChainImpl.java:2369)
+	at com.alibaba.druid.proxy.jdbc.StatementProxyImpl.executeUpdate(StatementProxyImpl.java:169)
+	at com.alibaba.druid.pool.DruidPooledStatement.executeUpdate(DruidPooledStatement.java:135)
+	at org.hibernate.tool.hbm2ddl.SchemaUpdate.execute(SchemaUpdate.java:227)
+	at org.hibernate.tool.hbm2ddl.SchemaUpdate.execute(SchemaUpdate.java:178)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:492)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:1750)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:1788)
+	at org.springframework.orm.hibernate4.LocalSessionFactoryBuilder.buildSessionFactory(LocalSessionFactoryBuilder.java:242)
+	at org.springframework.orm.hibernate4.LocalSessionFactoryBean.buildSessionFactory(LocalSessionFactoryBean.java:372)
+	at org.springframework.orm.hibernate4.LocalSessionFactoryBean.afterPropertiesSet(LocalSessionFactoryBean.java:357)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1514)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1452)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:519)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:456)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:294)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:225)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:291)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:193)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:876)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:818)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:735)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredMethodElement.inject(AutowiredAnnotationBeanPostProcessor.java:551)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:87)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:284)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1106)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:456)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:294)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:225)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:291)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:193)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:609)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:469)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:383)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:283)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:111)
+	at org.mortbay.jetty.handler.ContextHandler.startContext(ContextHandler.java:548)
+	at org.mortbay.jetty.servlet.Context.startContext(Context.java:136)
+	at org.mortbay.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1233)
+	at org.mortbay.jetty.handler.ContextHandler.doStart(ContextHandler.java:517)
+	at org.mortbay.jetty.webapp.WebAppContext.doStart(WebAppContext.java:460)
+	at org.mortbay.jetty.plugin.Jetty6PluginWebAppContext.doStart(Jetty6PluginWebAppContext.java:124)
+	at org.mortbay.component.AbstractLifeCycle.start(AbstractLifeCycle.java:50)
+	at org.mortbay.jetty.handler.HandlerCollection.doStart(HandlerCollection.java:152)
+	at org.mortbay.jetty.handler.ContextHandlerCollection.doStart(ContextHandlerCollection.java:156)
+	at org.mortbay.component.AbstractLifeCycle.start(AbstractLifeCycle.java:50)
+	at org.mortbay.jetty.handler.HandlerCollection.doStart(HandlerCollection.java:152)
+	at org.mortbay.component.AbstractLifeCycle.start(AbstractLifeCycle.java:50)
+	at org.mortbay.jetty.handler.HandlerWrapper.doStart(HandlerWrapper.java:130)
+	at org.mortbay.jetty.Server.doStart(Server.java:222)
+	at org.mortbay.component.AbstractLifeCycle.start(AbstractLifeCycle.java:50)
+	at org.mortbay.jetty.plugin.Jetty6PluginServer.start(Jetty6PluginServer.java:132)
+	at org.mortbay.jetty.plugin.AbstractJettyMojo.startJetty(AbstractJettyMojo.java:379)
+	at org.mortbay.jetty.plugin.AbstractJettyMojo.execute(AbstractJettyMojo.java:321)
+	at org.mortbay.jetty.plugin.AbstractJettyRunMojo.execute(AbstractJettyRunMojo.java:205)
+	at org.mortbay.jetty.plugin.Jetty6RunMojo.execute(Jetty6RunMojo.java:184)
+	at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:137)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:210)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:156)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:148)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:117)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:81)
+	at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build(SingleThreadedBuilder.java:56)
+	at org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:128)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:305)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:192)
+	at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:105)
+	at org.apache.maven.cli.MavenCli.execute(MavenCli.java:957)
+	at org.apache.maven.cli.MavenCli.doMain(MavenCli.java:289)
+	at org.apache.maven.cli.MavenCli.main(MavenCli.java:193)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:282)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:225)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:406)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:347)
+	at org.codehaus.classworlds.Launcher.main(Launcher.java:47)
+[ERROR][2021-12-04 13:42:21,019][org.hibernate.tool.hbm2ddl.SchemaUpdate]HHH000388: Unsuccessful: alter table TAUTH add index FK4BE8BFC8A7F68E6 (CPID), add constraint FK4BE8BFC8A7F68E6 foreign key (CPID) references TAUTH (CID)
+[ERROR][2021-12-04 13:42:21,019][org.hibernate.tool.hbm2ddl.SchemaUpdate]REFERENCES command denied to user 'sypro'@'localhost' for table 'tauth'
+[ERROR][2021-12-04 13:42:21,020][org.hibernate.tool.hbm2ddl.SchemaUpdate]HHH000388: Unsuccessful: alter table TMENU add index FK4C3C3B38A84A09D (CPID), add constraint FK4C3C3B38A84A09D foreign key (CPID) references TMENU (CID)
+[ERROR][2021-12-04 13:42:21,021][org.hibernate.tool.hbm2ddl.SchemaUpdate]REFERENCES command denied to user 'sypro'@'localhost' for table 'tmenu'
+[ERROR][2021-12-04 13:42:21,022][org.hibernate.tool.hbm2ddl.SchemaUpdate]HHH000388: Unsuccessful: alter table TROLETAUTH add index FKE3580B72AB86C184 (CAUTHID), add constraint FKE3580B72AB86C184 foreign key (CAUTHID) references TAUTH (CID)
+[ERROR][2021-12-04 13:42:21,023][org.hibernate.tool.hbm2ddl.SchemaUpdate]REFERENCES command denied to user 'sypro'@'localhost' for table 'tauth'
+[ERROR][2021-12-04 13:42:21,025][org.hibernate.tool.hbm2ddl.SchemaUpdate]HHH000388: Unsuccessful: alter table TROLETAUTH add index FKE3580B72C8388BA0 (CROLEID), add constraint FKE3580B72C8388BA0 foreign key (CROLEID) references TROLE (CID)
+[ERROR][2021-12-04 13:42:21,026][org.hibernate.tool.hbm2ddl.SchemaUpdate]REFERENCES command denied to user 'sypro'@'localhost' for table 'trole'
+[ERROR][2021-12-04 13:42:21,027][org.hibernate.tool.hbm2ddl.SchemaUpdate]HHH000388: Unsuccessful: alter table TUSERTROLE add index FKE395100BC8388BA0 (CROLEID), add constraint FKE395100BC8388BA0 foreign key (CROLEID) references TROLE (CID)
+[ERROR][2021-12-04 13:42:21,028][org.hibernate.tool.hbm2ddl.SchemaUpdate]REFERENCES command denied to user 'sypro'@'localhost' for table 'trole'
+[ERROR][2021-12-04 13:42:21,029][org.hibernate.tool.hbm2ddl.SchemaUpdate]HHH000388: Unsuccessful: alter table TUSERTROLE add index FKE395100BCD8DE10A (CUSERID), add constraint FKE395100BCD8DE10A foreign key (CUSERID) references TUSER (CID)
+[ERROR][2021-12-04 13:42:21,029][org.hibernate.tool.hbm2ddl.SchemaUpdate]REFERENCES command denied to user 'sypro'@'localhost' for table 'tuser'
+[INFO][2021-12-04 13:42:21,029][org.hibernate.tool.hbm2ddl.SchemaUpdate]HHH000232: Schema update complete
+[INFO][2021-12-04 13:42:21,162][org.springframework.orm.hibernate4.HibernateTransactionManager]Using DataSource [{
+	CreateTime:"2021-12-04 13:42:18",
+	ActiveCount:0,
+	PoolingCount:1,
+	CreateCount:1,
+	DestroyCount:0,
+	CloseCount:2,
+	ConnectCount:2,
+	Connections:[
+		{ID:1026285791, ConnectTime:"2021-12-04 13:42:20", UseCount:2, LastActiveTime:"2021-12-04 13:42:21"}
+	]
+}] of Hibernate SessionFactory for HibernateTransactionManager
+[INFO][2021-12-04 13:42:21,378][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization completed in 4792 ms
+[INFO][2021-12-04 13:42:21,444][sy.listener.demo.RepairListener]修复数据库
+[WARN][2021-12-04 13:42:22,127][org.hibernate.hql.internal.ast.HqlSqlWalker][DEPRECATION] Encountered positional parameter near line 1, column 44.  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+[WARN][2021-12-04 13:42:22,129][org.hibernate.hql.internal.ast.HqlSqlWalker][DEPRECATION] Encountered positional parameter near line 1, column 59.  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+[WARN][2021-12-04 13:42:22,284][org.hibernate.engine.jdbc.spi.SqlExceptionHelper]SQL Error: 1364, SQLState: HY000
+[ERROR][2021-12-04 13:42:22,284][org.hibernate.engine.jdbc.spi.SqlExceptionHelper]Field 'id' doesn't have a default value
+[INFO][2021-12-04 13:42:22,292][org.hibernate.engine.jdbc.batch.internal.AbstractBatchImpl]HHH000010: On release of batch it still contained JDBC statements
+[INFO][2021-12-04 13:42:23,192][org.springframework.web.context.support.XmlWebApplicationContext]Closing Root WebApplicationContext: startup date [Sat Dec 04 13:42:16 CST 2021]; root of context hierarchy
+[INFO][2021-12-04 13:42:23,193][org.springframework.beans.factory.support.DefaultListableBeanFactory]Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@78977b59: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,baseDao,demoAuthService,demoBugService,demoLogUserService,demoMenuService,demoOnlineService,demoRepairService,demoRoleService,demoUserService,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,dataSource,sessionFactory,transactionManager,transactionAdvice,org.springframework.aop.config.internalAutoProxyCreator,transactionPointcut,org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0,druid-stat-interceptor,druid-stat-pointcut,org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#1,org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0]; root of factory hierarchy
+[INFO][2021-12-04 13:42:23,203][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} closed

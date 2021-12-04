@@ -1,0 +1,14 @@
+覆盖hibernate相关文件后，置空schema属性
+
+如果是注解型配置的话，需要删除CID中的unique = true属性
+
+如果是注解型配置的话，需要删除类中的uniqueConstraints = @UniqueConstraint(columnNames = "CNAME")属性
+
+如果是注解型配置的话，需要将@Temporal(TemporalType.DATE)改成@Temporal(TemporalType.TIMESTAMP)
+
+在Tbug类里添加了构造函数用于hql[select new Tbug()]语句
+public Tbug(String cid, String cname, Date ccreatedatetime) {
+	this.cid = cid;
+	this.cname = cname;
+	this.ccreatedatetime = ccreatedatetime;
+}
